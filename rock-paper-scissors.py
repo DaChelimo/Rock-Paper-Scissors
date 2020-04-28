@@ -9,7 +9,7 @@ points = 0
 coins = 0
 
 player = input().lower()
-computer = computer_choice[randint(0, 5)]
+computer = computer_choice[randint(0, 6)]
 r = "rock"
 p = "paper"
 s = "scissors"
@@ -42,7 +42,7 @@ elif player == s and computer == p:
 print(new)
 
 player = input().lower()
-computer = computer_choice[randint(0, 5)]
+computer = computer_choice[randint(0, 6)]
 
 print("Round 2: \n")
 print("You chose:", player)
@@ -71,7 +71,7 @@ elif player == s and computer == p:
 print(new)
 
 player = input().lower()
-computer = computer_choice[randint(0, 5)]
+computer = computer_choice[randint(0, 6)]
 
 print("Round 3: \n")
 print("You chose:", player)
